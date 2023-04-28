@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ice Cream Sandwiches Online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Ice Cream Sandwiches Online</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are passionate about making the best ice cream sandwiches you have ever tasted! We use only the finest ingredients and we offer a variety of flavors to choose from.</p>
+			<p>Our ice cream sandwiches are handcrafted and made with care. We believe in quality over quantity and we want every customer to be satisfied with their purchase.</p>
+			<p>Thank you for choosing Ice Cream Sandwiches Online!</p>
+		</section>
+		<section id="products">
+			<h2>Our Products</h2>
+			<div class="product">
+				<img src="vanilla_chocolate_chip.jpg" alt="Vanilla Chocolate Chip Ice Cream Sandwich">
+				<h3>Vanilla Chocolate Chip</h3>
+				<p>A classic flavor combination. Creamy vanilla ice cream with chunks of chocolate chips sandwiched between two soft chocolate cookies.</p>
+				<p>Price: $3.99</p>
+			</div>
+			<div class="product">
+				<img src="strawberry_shortcake.jpg" alt="Strawberry Shortcake Ice Cream Sandwich">
+				<h3>Strawberry Shortcake</h3>
+				<p>A fruity twist on a traditional favorite. Sweet strawberry ice cream with a layer of fresh strawberries sandwiched between two soft shortbread cookies.</p>
+				<p>Price: $4.99</p>
+			</div>
+			<div class="product">
+				<img src="chocolate_peanut_butter.jpg" alt="Chocolate Peanut Butter Ice Cream Sandwich">
+				<h3>Chocolate Peanut Butter</h3>
+				<p>A rich and satisfying flavor combination. Creamy chocolate ice cream with a layer of peanut butter sandwiched between two soft peanut butter cookies.</p>
+				<p>Price: $5.99</p>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Ice Cream Sandwiches Online. All rights reserved.</p>
+	</footer>
+</body>
+</html>
